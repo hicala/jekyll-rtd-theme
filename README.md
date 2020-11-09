@@ -62,12 +62,14 @@ google:
   gtag:
   adsense:
 
-mermaid:
-  custom: # mermaid link
-  initialize: # mermaid options, default: {}
+mathjax: # this will prased to json, default: {}
 
-scss:
-script:
+mermaid:
+  custom:     # mermaid link
+  initialize: # this will prased to json, default: {}
+
+scss:   # also _includes/extra/styles.scss
+script: # also _includes/extra/script.js
 
 translate:
   # shortcodes
